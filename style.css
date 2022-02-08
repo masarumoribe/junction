@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+  color: blanchedalmond;
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 80px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+div {
+  display: block;
+}
+
+#logo {
+  height: 100px;
+  width: 200px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  width: 100%;
+  height: 90%;
+  transform: scale(0.7);
+  display: flex;
+}
+
+nav > ul {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#title {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title input[type="email"] {
+  width: 100%;
+  padding: 5px;
+}
+
+#title input[type="submit"] {
+  margin: 15px 0;
+  width: 100%;
+  height: 30px;
+  background-color: #8c1abc;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+#video-container {
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  text-align: justify;
+  align-items: center;
+  background-color: rgb(128, 71, 180);
+}
+
+#drinks {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#drinks div {
+  justify-self: center;
+}
+
+#food {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  text-align: justify;
+  align-items: center;
+  background-color: rgb(128, 71, 180);
+}
+
+@media only screen and (max-width: 850px) {
+  .wrapper {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #drinks {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* #drinks div {
+    width: 100%;
+  } */
+}

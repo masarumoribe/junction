@@ -154,7 +154,13 @@ form {
     text-align: center;
   }
 
-  /* #drinks div {
+  #drinks div {
     width: 100%;
-  } */
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #drinks {
+    margin: 0 200px;
+  }
 }

@@ -1,3 +1,3 @@
 # Junction Website
 
-Websdite for junction bar.
+Website for junction bar.
